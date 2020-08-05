@@ -149,9 +149,6 @@ var generateHTML = function (swaggerDoc, opts, options, customCss, customfavIcon
     isExplorer = opts.explorer || !!swaggerUrls
     customSiteTitle = opts.customSiteTitle
     customCssUrl = opts.customCssUrl
-  } else {
-    //support legacy params based function
-    isExplorer = opts
   }
   options = options || {}
   var explorerString = isExplorer ? '' : '.swagger-ui .topbar .download-url-wrapper { display: none }'
