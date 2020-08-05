@@ -11,7 +11,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "./node_modules/.bin/mocha test/*",
+    "test": "mocha test/* --exit",
     "test-app": "node ./test/testapp/run.js "
   },
   "keywords": [
@@ -28,8 +28,8 @@
   "devDependencies": {
     "es6-shim": "0.35.5",
     "express": "^4.17.1",
-    "mocha": "^8.0.1",
-    "puppeteer": "^4.0.1"
+    "mocha": "^8.1.1",
+    "puppeteer": "^5.2.1"
   },
   "author": {
     "name": "Stephen Scott",
@@ -46,7 +46,7 @@
   },
   "homepage": "https://github.com/scottie1984/swagger-ui-express",
   "dependencies": {
-    "swagger-ui-dist": "^3.27.0"
+    "swagger-ui-dist": "^3.31.1"
   },
   "peerDependencies": {
     "express": ">=4.17.1"

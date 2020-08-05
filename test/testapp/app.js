@@ -90,7 +90,7 @@ app.use('/api-docs-html1', swaggerUi.serveFiles(swaggerDocument, swaggerUiOpts))
 app.get('/api-docs-html1', (req, res) => { res.send(swaggerHtml) });
 
 app.use(function(req, res) {
-    res.send(404, 'Page not found');
+    res.status(404).send('Page not found');
 });
 
 module.exports = app;
