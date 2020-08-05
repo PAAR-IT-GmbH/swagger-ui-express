@@ -1,6 +1,6 @@
 {
-  "name": "swagger-ui-express",
-  "version": "4.1.4",
+  "name": "@paar-it-gmbh/swagger-ui-express",
+  "version": "4.2.0",
   "description": "Swagger UI Express",
   "main": "./index.js",
   "files": [
