@@ -1,13 +1,12 @@
 {
   "name": "@paar-it-gmbh/swagger-ui-express",
-  "version": "4.2.0",
+  "version": "5.0.0",
   "description": "Swagger UI Express",
   "main": "./index.js",
   "files": [
     "package.json",
-    "index.js",
-    "indexTemplate.html.tpl",
-    "swagger-ui-init.js.tpl",
+    "index.js",    
+    "index.d.ts",
     "LICENSE"
   ],
   "scripts": {
@@ -53,5 +52,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "types": "./index.d.ts"
 }
